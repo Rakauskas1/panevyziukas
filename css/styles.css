@@ -1,3 +1,27 @@
+
+/* 
+    RAŠOMOS KLASĖS TAIP :
+    ->>>>> PAYPAL-BUTTON
+
+    PALIEKAMI KOMENTARAI PRIE KLASIU KATEGORIJU
+    --- BUTTONS
+    button {
+    color: white;
+    padding: PX;
+    background-color: green;
+    }
+
+    --- TEXT
+    p {
+    color: white;
+    font-size: px;
+    }
+*/
+
+
 body{
     background-color: wheat;
 }
+
+
+

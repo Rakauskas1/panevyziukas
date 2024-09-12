@@ -1,41 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* PROJECT STYLE */
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* 
+    RAŠOMOS KLASĖS TAIP :
+    ->>>>> PAYPAL-BUTTON
+
+    PALIEKAMI KOMENTARAI PRIE KLASIU KATEGORIJU
+    --- BUTTONS
+    button {
+    color: white;
+    padding: PX;
+    background-color: green;
+    }
+
+    --- TEXT
+    p {
+    color: white;
+    font-size: px;
+    }
+*/
+
+
+body{
+    background-color: wheat;
 }
-
-/* HEADER >>>*/
-header {
-    border: 1px solid black;
-    height: 7.5vh;
-    background-color: rgb(41,44,44);
-}
-
-.logo-text {
-    font-size: 20px;
-    line-height: 26px;
-    color: #fefeff;
-    font-weight: 700;
-    font-family: "poppins";
-}
-
-.header-nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.header-nav ul li a{
-    text-decoration: none;
-    font-size: 17px;
-    line-height: 26px;
-    color: #fefeff;
-    font-weight: 400;
-    font-family: "Poppins";
-}
-
-
-

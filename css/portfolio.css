@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
 }
 
+/* HEADER */
 header {
     background-color: #2A2C2C;
     height: 7.5vh;
@@ -70,3 +71,39 @@ header {
     margin-left: 85px;
     cursor: pointer;
 }
+
+/* PORTFOLIO */
+.portfolio-container {
+    border: 1px solid black;
+    width: 50%;
+    height: 60vh;
+    margin: 10vh auto;
+}
+
+.pc-text {
+    font-size: 45px;
+    line-height: 28px;
+    color: #141414;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.image-containers {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.container-A {
+    width: 40%;
+    height: 32vh;
+    border: 1px solid red;
+}
+
+.container-B {
+    width: 40%;
+    height: 32vh;
+    border: 1px solid green;
+}
+

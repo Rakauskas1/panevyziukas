@@ -70,3 +70,15 @@ header {
     margin-left: 85px;
     cursor: pointer;
 }
+
+/* HOME */
+.hero {
+    background-image: url(../img/index/index-background.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    aspect-ratio: 0 / 10; 
+}

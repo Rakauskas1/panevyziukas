@@ -73,37 +73,122 @@ header {
 }
 
 /* PORTFOLIO */
-.portfolio-container {
-    border: 1px solid black;
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+    padding: 10px;
     width: 50%;
-    height: 60vh;
-    margin: 10vh auto;
+    margin: auto;
 }
 
-.pc-text {
+.portfolio-title {
+    width: 50%;
+    margin: auto auto;
+}
+
+.pt-text {
+    margin: 0;
     font-size: 45px;
     line-height: 28px;
     color: #141414;
     font-weight: 700;
     font-family: "Poppins";
+    margin-top: 80px;
     margin-bottom: 10px;
-    margin-top: 0px;
 }
 
-.image-containers {
+.pt-line {
+    margin-bottom: 35px;
+}
+
+.card {
+    position: relative; 
+    background-color: white;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.card img {
     width: 100%;
-    border: 1px solid blue;
+    height: 35vh; 
+    display: block;
 }
 
-.container-A {
-    width: 40%;
-    height: 32vh;
-    border: 1px solid red;
+.card-content {
+    position: absolute; 
+    top: 50%; 
+    left: 0; 
+    padding: 15px;
+    height: 100%;
+    width: 100%; 
+    background-color: rgb(255, 255, 255); 
 }
 
-.container-B {
-    width: 40%;
-    height: 32vh;
-    border: 1px solid green;
+.card-title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #141414;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 10px;
 }
 
+.card-text {
+    width: 524px;
+    height: 136px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #141414;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 0;
+    width: 90%;
+}
+
+.portfolio-text {
+    font-size: 45px;
+    line-height: 28px;
+    color: #141414;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.pt-button {
+    margin: 50px auto;
+    width: 25%;
+    text-align: center;
+}
+
+.portfolio-button-more {
+    width: 257px;
+    height: 77px;
+    background-color: #252525;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fefeff;
+    font-weight: 400;
+    font-family: "Poppins";
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.portfolio-button-more:hover {
+    background-color: #ffffff;
+    color: #0e0b01;
+    border: 0.5px solid #252525;
+}
+
+.black-icon-circle {
+    position: absolute;
+    left: 25.4%;
+    top: 39%;
+}
+
+.white-icon-circle {
+    position: absolute;
+    top: 39%;
+    left: 29%;
+}

@@ -7,6 +7,8 @@ body {
     font-family: sans-serif;
 }
 
+/* HEADER */
+
 header {
     background-color: #2A2C2C;
     height: 7.5vh;
@@ -72,35 +74,133 @@ header {
     cursor: pointer;
 }
 
-.container {
+/* WHAT WE DO */
+
+.card-container {
     display: flex;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
-.text {
-    text-align: center;
-    margin-bottom: 40px;
-}
+
 .text h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 1px;
+    text-transform: uppercase;
+    color: #464646;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 80px;
 }
+
 .text hr {
     font-size: 40px;
-    border: 3px solid black;
-    width: 7%;
+    border: 3px solid #464646;
+    width: 3%;
 }
-.card-container {
-    height: 400px;
-    border: 1px solid black;
-}
-.card-container1 {
 
-    border: 1px solid black;
-    height: 400px;
+h3 {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #292929;
+    font-weight: 700;
+    font-family: "Poppins";
 }
-.card-container2 {
 
-    border: 1px solid black;
+.card {
+    width: 368px;
+    height: 486px;
+    border: 1px solid #292a2c;
+    margin-right: 20px;
+    text-align: center;
 }
+.card-1 {
+    width: 368px;
+    height: 486px;
+    margin-right: 20px;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+.card-2 {
+    width: 368px;
+    height: 486px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.card-content {
+    padding: 30px;
+    text-align: left;
+}
+p {
+    width: 250px;
+    height: auto;
+    font-size: 17px;
+    line-height: 28px;
+    color: #292929;
+    font-family: "Poppins";
+}
+
+.card-content button {
+    display: inline-block;
+    width: 40%;
+    height: 35px;
+    background-color: #414141;
+    color: white;
+    margin-top: 70px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 25%;
+    display: block;
+}
+
+.card-1 img {
+    width: 20%;
+    display: block;
+}
+
+.card-2 img {
+    width: 25%;
+    display: block;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .arrow-button-left {
+    background-color: #414141;
+    border: none;
+    width: 20px;
+    height: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .arrow-button-right {
+    background-color: #fafafa;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .arrow-container img {
+    width: 8px;
+    align-items: center;
+    justify-content: center;
+  }

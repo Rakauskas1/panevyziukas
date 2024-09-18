@@ -192,3 +192,95 @@ header {
     top: 39%;
     left: 29%;
 }
+
+/* WHY CHOSE US */
+.chose-container {
+    background-color: #323232;
+    width: 100%;
+    height: 46vh;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.c-container-title {
+    font-size: 45px;
+    line-height: 28px;
+    color: #FDFDFF;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 10px;
+}
+
+.main-box {
+    width: 60%;
+    height: 100%;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin: auto auto;
+}
+
+.container-title {
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 30px;
+}
+
+.c-card {
+    width: 33%;
+    height: 100%;
+}
+
+.c-card-text {
+    font-size: 30px;
+    line-height: 28px;
+    color: #FDFDFF;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin: 0;
+}
+
+.c-card-number {
+    font-size: 48px;
+    line-height: 28px;
+    color: #FDFDFF;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-top: 15px;
+}
+
+.c-card-button {
+    width: 176px;
+    height: 47px;
+    background-color: #FDFDFF;
+    font-size: 17px;
+    line-height: 28px;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Poppins";
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: -5px;
+    transition: .3s ease-in-out;
+}
+
+.c-card-button:hover {
+    background-color: #323232;
+    border: 1px solid #FDFDFF;
+    color: #FDFDFF;
+}
+
+.c-card2 {
+    width: 33%;
+    height: 100%;
+}
+
+.c-card3 {
+    width: 33%;
+    height: 100%;
+}

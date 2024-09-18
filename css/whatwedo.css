@@ -81,6 +81,8 @@ header {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .text h2 {
@@ -146,10 +148,11 @@ p {
     display: inline-block;
     width: 40%;
     height: 35px;
-    background-color: #4b4e4e;
+    background-color: #414141;
     color: white;
     margin-top: 70px;
     margin-left: 150px;
+    cursor: pointer;
 }
 
 .card img {
@@ -167,11 +170,37 @@ p {
     display: block;
 }
 
-.arrow-button-left {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+.arrow-container {
     display: flex;
-    gap: 20px;
-}
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .arrow-button-left {
+    background-color: #414141;
+    border: none;
+    width: 20px;
+    height: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .arrow-button-right {
+    background-color: #fafafa;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .arrow-container img {
+    width: 8px;
+    align-items: center;
+    justify-content: center;
+  }

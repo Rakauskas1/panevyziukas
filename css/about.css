@@ -96,7 +96,7 @@ hr {
     background-color: white;
     border: none;
     height: 10px;
-    width: 8%;
+    width: 4.3%;
 }
 
 p {
@@ -106,3 +106,36 @@ p {
     font-size: 17px;
     font-weight: 400;
 }
+.image-container {
+    position: ;
+}
+
+.img1{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+
+}
+.img2{
+    z-index: 2;
+    position: absolute;
+    top: 53.5%;
+    left: 45%;
+
+}
+
+.img3{
+    z-index: 3;
+    position: absolute;
+    top: 57.5%;
+    left: 47%;
+}
+
+.img4{
+    z-index: 4;
+    position: absolute;
+    top: 62%;
+    left: 49.7%;
+}
+

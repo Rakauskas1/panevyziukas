@@ -125,6 +125,10 @@ header {
     background-color: rgb(255, 255, 255); 
 }
 
+.portfolio-icon {
+    margin-bottom: 20px;
+}
+
 .card-title {
     font-size: 24px;
     line-height: 28px;

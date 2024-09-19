@@ -153,6 +153,14 @@ p {
     margin-top: 70px;
     margin-left: 150px;
     cursor: pointer;
+    border: none;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid #414141;
+    color: #414141;
 }
 
 .card img {

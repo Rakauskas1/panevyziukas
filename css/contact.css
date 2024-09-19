@@ -152,7 +152,7 @@ header {
 position: absolute;
 width: 600px;
 height: 355px;
-background-color:#fffff;
+background-color: #fefeff;
 margin-top: 11%;
 margin-left: 41.3%
 }
@@ -167,25 +167,25 @@ margin-left: 41.3%
 .user-name {
     font-weight: bold;
     font-size: 24px;
-line-height: 28px;
-color: #323232;
-font-weight: 700;
-font-family: "Poppins";
-position: absolute;
-margin-left: 13%;
+    line-height: 28px;
+    color: #323232;
+    font-weight: 700;
+    font-family: "Poppins";
+    position: absolute;
+    margin-left: 13%;
 }
-.ptext{
+.ptext {
     position: absolute;
     margin-left: 4.7%;
     margin-top: 5%;
 }
-.back1{
+.back1 {
     position: relative;
     margin-top: 70%;
     margin-left: 35%;
 }
 
-.arrow1{
+.arrow1 {
     position: absolute;
     margin-left: 35%;
     margin-top: 30% 
@@ -207,19 +207,16 @@ margin-left: 13%;
   }
   
   .button-left {
-    background-color: #252525;;
+    background-color: #252525;
     color: white;
     margin-left: 30%;
   }
   
-  .button-right {
+.button-right {
     background-color: white;    
+    cursor: pointer;
     color: black;
-  }
-  
-  .button:hover {
-    background-color: #ddd;
-  }
+}
 
 .line{
     position: absolute;
@@ -240,4 +237,15 @@ margin-left: 13%;
     font-size: 24px ;
     margin-left: 25%;
     margin-top: -0.2%;
+}
+
+.submit-button {
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: transparent;
+    color: rgb(33, 33, 33);
+    font-weight: 550;
 }

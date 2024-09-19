@@ -130,8 +130,11 @@ header {
 }
 
 .hero-about-button:hover {
-    background-color: #fefeff;
-    color: #0e0b01;
+    border: 1px solid #fefeff;
+    background-color: transparent;
+    color: #fefeff;
+    font-weight: 600;
+    font-size: 19px;
 }
 
 .hero-contact-button {
@@ -151,8 +154,11 @@ header {
 }
 
 .hero-contact-button:hover {
-    background-color: #0e0b01;
+    border: 1px solid #fefeff;
+    background-color: transparent;
     color: #fefeff;
+    font-weight: 600;
+    font-size: 19px;
 }
 
 .hero-white-line {

@@ -83,6 +83,7 @@ header {
 .contact-form {
     width: 400px;
     margin-left: 20%;
+    margin-top: 2%;
 }
  
 .contact-form input[type="text"],
@@ -93,6 +94,7 @@ header {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     font-family: "Poppins";
+    height: 30px;
 }
  
 .contact-form button {
@@ -104,8 +106,8 @@ header {
     font-weight: 700;
     font-family: "Poppins";
     text-align: center;
-    padding: 25px 55px;
-    margin-top: 75%;
+    padding: 20px 55px;
+    margin-top: 20%;
 }
  
 .client-review {
@@ -113,7 +115,8 @@ header {
     padding: 20px;
  
     border-radius: 5px;
-    margin-right: 20%;
+    margin-right: 34%;
+    margin-top: 3%;
 }
  
 .client-review img {
@@ -141,25 +144,25 @@ header {
     padding: 15px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    height: 70px;
+    height: 90px;
     font-family: "Poppins";
 }
 
 .background{
 position: absolute;
-width: 553px;
-height: 365px;
-filter: drop-shadow(-0.209px 2.993px 25.5px rgba(30,30,30,0.04));
-background-color: #ffffff;
-margin-top: 6%;
-margin-left: 55%
+width: 600px;
+height: 355px;
+background-color:#fffff;
+margin-top: 11%;
+margin-left: 41.3%
 }
 .profile{
     width: 141px;
     height: 120px;
     z-index: 1;
     position: relative;
-    margin-left: 20%;
+    margin-left: 22%;
+    top: 12%;
 }
 .user-name {
     font-weight: bold;
@@ -168,13 +171,14 @@ line-height: 28px;
 color: #323232;
 font-weight: 700;
 font-family: "Poppins";
-margin-top: -5%;
 position: absolute;
 margin-left: 13%;
+margin-top: 1%;
 }
 .ptext{
     position: absolute;
-    margin-left: 4%;
+    margin-left: 4.7%;
+    margin-top: 5%;
 }
 .back1{
     position: relative;
@@ -191,7 +195,7 @@ margin-left: 13%;
 .button {
     display: inline-block;
     border: none;
-    padding: 16px 32px;
+    padding: 9px 28px;
     text-align: center;
     text-decoration: none;
     font-size: 40px;
@@ -200,20 +204,41 @@ margin-left: 13%;
     cursor: pointer;
     position: relative;
     z-index: 3;
-    margin-top: 45%;
+    margin-top: 13%;
   }
   
   .button-left {
-    background-color: #252525;; /* Black background */
-    color: white; /* White text */
+    background-color: #252525;;
+    color: white;
     margin-left: 30%;
   }
   
   .button-right {
-    background-color: white; /* White background */
-    color: black; /* Black text */
+    background-color: white;
+    color: black;
   }
   
   .button:hover {
-    background-color: #ddd; /* Grey background on hover */
+    background-color: #ddd;
   }
+
+.line{
+    position: absolute;
+    margin-top: -3%;
+}
+
+.rew{
+    margin-top: -5%;
+    margin-left: 19%;
+}
+
+.touch{
+    margin-bottom: 15%;
+}
+
+.icons{
+    position: absolute;
+    font-size: 24px ;
+    margin-left: 25%;
+    margin-top: 0.9%;
+}

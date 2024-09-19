@@ -162,7 +162,7 @@ margin-left: 41.3%
     z-index: 1;
     position: relative;
     margin-left: 22%;
-    top: 12%;
+    top: 15%;
 }
 .user-name {
     font-weight: bold;
@@ -173,7 +173,6 @@ font-weight: 700;
 font-family: "Poppins";
 position: absolute;
 margin-left: 13%;
-margin-top: 1%;
 }
 .ptext{
     position: absolute;
@@ -195,7 +194,7 @@ margin-top: 1%;
 .button {
     display: inline-block;
     border: none;
-    padding: 9px 28px;
+    padding: 8px 28px;
     text-align: center;
     text-decoration: none;
     font-size: 40px;
@@ -214,7 +213,7 @@ margin-top: 1%;
   }
   
   .button-right {
-    background-color: white;
+    background-color: white;    
     color: black;
   }
   
@@ -240,5 +239,5 @@ margin-top: 1%;
     position: absolute;
     font-size: 24px ;
     margin-left: 25%;
-    margin-top: 0.9%;
+    margin-top: -0.2%;
 }

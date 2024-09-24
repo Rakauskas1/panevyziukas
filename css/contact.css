@@ -154,14 +154,14 @@ width: 600px;
 height: 355px;
 background-color: #fefeff;
 margin-top: 11%;
-margin-left: 41.3%;
+margin-left: 41.6%;
 }
 .profile{
     width: 141px;
     height: 120px;
     z-index: 1;
     position: relative;
-    margin-left: 22%;
+    margin-left: 24%;
     top: 15%;
 }
 .user-name {
@@ -176,7 +176,7 @@ margin-left: 41.3%;
 }
 .ptext {
     position: absolute;
-    margin-left: 4.7%;
+    margin-left: 4.9%;
     margin-top: 5%;
 }
 .back1 {
@@ -235,9 +235,9 @@ margin-left: 41.3%;
 .icons{
     position: absolute;
     font-size: 24px ;
-    margin-left: 25%;
+    margin-left: 26%;
     margin-top: -0.2%;
-}git add
+}
 
 .submit-button {
     cursor: pointer;

@@ -106,26 +106,25 @@ h3 {
     font-size: 18px;
     line-height: 20px;
     text-transform: uppercase;
-    color: #292929;
     font-weight: 700;
     font-family: "Poppins";
 }
 
-.card {
+.card0{
     width: 368px;
     height: 486px;
     border: 1px solid #292a2c;
     margin-right: 20px;
     text-align: center;
 }
-.card-1 {
+.card-10{
     width: 368px;
     height: 486px;
     margin-right: 20px;
     border: 1px solid lightgrey;
     text-align: center;
 }
-.card-2 {
+.card-20{
     width: 368px;
     height: 486px;
     border: 1px solid lightgray;
@@ -140,7 +139,6 @@ p {
     height: auto;
     font-size: 17px;
     line-height: 28px;
-    color: #292929;
     font-family: "Poppins";
 }
 
@@ -220,6 +218,7 @@ footer {
     padding: 40px 20px;
     color: #fff;
     font-family: "poppins";
+    margin-top: 13vh;
   }
   
   

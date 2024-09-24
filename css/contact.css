@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* HEADER */
@@ -256,6 +257,7 @@ footer {
     padding: 40px 20px;
     color: #fff;
     font-family: "poppins";
+    margin-top: 17vh; 
   }
   
   

@@ -283,6 +283,7 @@ footer {
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: 600;
+    text-transform: uppercase;
   }
   
   .footer-column ul {
@@ -306,6 +307,7 @@ footer {
   
   .footer-column p {
     line-height: 1.6;
+    font-size: 17px;
   }
   
   .contact p {
@@ -333,7 +335,7 @@ footer {
     font-size: 14px;
     margin-bottom: -2.3%;
     height: 45px;
-    width: 500px;   
+    width: 500px;
   }
   
   .f-logo-container {

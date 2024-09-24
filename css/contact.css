@@ -149,13 +149,13 @@ header {
     font-family: "Poppins";
 }
 
-.background{
-position: absolute;
-width: 600px;
-height: 355px;
-background-color: #fefeff;
-margin-top: 11%;
-margin-left: 41.6%;
+.background {
+  position: absolute;
+  width: 600px;
+  height: 355px;
+  background-color: #fefeff;
+  margin-top: 11%;
+  margin-left: 41.6%;
 }
 .profile{
     width: 141px;
@@ -179,6 +179,14 @@ margin-left: 41.6%;
     position: absolute;
     margin-left: 4.9%;
     margin-top: 5%;
+    opacity: 0.769;
+    width: 474px;
+    height: 172px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Poppins";
 }
 .back1 {
     position: relative;
@@ -208,15 +216,19 @@ margin-left: 41.6%;
   }
   
   .button-left {
-    background-color: #252525;
     color: white;
     margin-left: 30%;
+    width: 75px;
+    height: 59px;
+    background-color: black;
   }
   
 .button-right {
     background-color: white;    
     cursor: pointer;
     color: black;
+    width: 75px;
+    height: 59px;
 }
 
 .line{

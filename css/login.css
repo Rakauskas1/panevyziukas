@@ -185,12 +185,15 @@ footer {
     height: 100%;
   }
   
-  .footer-bottom p {
-    font-size: 14px;
-    margin-left: -72%;
-    margin-bottom: -2.3%;
-    height: 45px;
-  }
+  .footer-bottom {
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    width: 96.85%;
+    background-color: #151515;
+    padding: 30px;
+    text-align: center;
+    }
   
   .f-logo-container {
     position: relative;

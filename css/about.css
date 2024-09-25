@@ -8,6 +8,8 @@ body {
 header {
     background-color: #2A2C2C;
     height: 7.5vh;
+    position: sticky;
+    top: 0;
 }
 
 .header-container {
@@ -45,7 +47,7 @@ header {
 }
 
 .nav-list {
-    display: flex;            
+    display: flex;        
     list-style: none;
     margin: 0;
     padding: 0;

@@ -220,12 +220,12 @@ footer {
     color: #fff;
     font-family: "poppins";
     margin-top: 13vh;
-    width: 100%;
   }
   
   
   .f-container {
     margin: 0 auto;
+    width: 100%;
   }
   
   .footer-top {

@@ -10,6 +10,8 @@ body {
 header {
     background-color: #2A2C2C;
     height: 7.5vh;
+    position: sticky;
+    top: 0;
 }
 
 .header-container {
@@ -238,6 +240,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    margin-top: 80px;
   }
 
   .login-header {
@@ -268,6 +271,7 @@ header {
   ::placeholder {
     font-weight: 500;
     color: #2A2C2C;
+    font-family: 'Poppins';
   }
 
   .input-field:focus {
@@ -277,7 +281,7 @@ header {
   .forgot {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 40px
   }
 
   section {
@@ -285,6 +289,7 @@ header {
     align-items: center;
     font-size: 14px;
     color: #2A2C2C;
+    font-family: 'Poppins';
   }
 
   #check {
@@ -297,4 +302,48 @@ header {
 
   a:hover {
     text-decoration: underline;
+  }
+
+  section a {
+    color: #2A2C2C;
+    margin-left: 60px;
+  
+  }
+  
+  .input-submit {
+    position: relative;
+  }
+
+  .submit-btn {
+    width: 250px;
+    height: 45px;
+    background-color: #222;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .input-submit label {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    color: #fff;
+    font-family: 'Poppins';
+  }
+
+  .submit-btn:hover {
+    background: #000;
+    transform: scale(1.05,1);
+  }
+
+  .sign-up-link {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+  }
+
+  .sign-up-link a{
+    color: #000;
+    font-weight: 600;
   }
